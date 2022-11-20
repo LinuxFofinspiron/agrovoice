@@ -7,7 +7,8 @@ Configuration = openailib.Configuration
 OpenAIApi = openailib.OpenAIApi
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+  // apiKey: process.env.OPENAI_API_KEY,
+  apiKey:'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',
 });
 
 const openai = new OpenAIApi(configuration);
