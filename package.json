@@ -1,10 +1,10 @@
 {
   "name": "agrovoice",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the REST API for the AgroVoice app built for the UIA Hackthon",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +17,17 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "openai": "^3.1.0"
-  }
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinuxFofinspiron/agrovoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LinuxFofinspiron/agrovoice/issues"
+  },
+  "homepage": "https://github.com/LinuxFofinspiron/agrovoice#readme"
 }
